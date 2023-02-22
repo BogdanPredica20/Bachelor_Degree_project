@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lv_row_background">
+
+    <ImageView
+        android:id="@+id/row_courier_icon"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        android:src="@drawable/courier_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/iv_cd_courier_picture"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_tv_courier_id"
+        android:text="@string/row_tv_courier_id"
+        app:layout_constraintStart_toEndOf="@+id/row_courier_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_tv_colet"
+        android:text="@string/row_tv_colet"
+        app:layout_constraintTop_toBottomOf="@+id/row_tv_courier_id"
+        app:layout_constraintStart_toEndOf="@+id/row_courier_icon"
+        app:layout_constraintEnd_toStartOf="@+id/row_tv_suma"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:singleLine="false"
+        android:maxLines="5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_tv_suma"
+        android:text="@string/row_tv_suma"
+        app:layout_constraintStart_toEndOf="@id/row_tv_colet"
+       app:layout_constraintTop_toBottomOf="@+id/row_tv_courier_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_tv_pin"
+        android:text="@string/row_tv_pin"
+        app:layout_constraintStart_toEndOf="@id/row_courier_icon"
+        app:layout_constraintTop_toBottomOf="@id/row_tv_colet"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

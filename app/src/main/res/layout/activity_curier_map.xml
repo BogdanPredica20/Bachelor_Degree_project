@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CurierMapActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDC15B">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutCurier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_logout_curier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_logout"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/custom_button"
+            />
+
+        <EditText
+            android:id="@+id/editTextCurierPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:ems="8"
+            android:inputType="number"
+            android:labelFor="@+id/editText1"
+            android:layout_toEndOf="@+id/btn_logout_curier"
+            android:layout_marginStart="5dp"
+            android:hint="@string/et_adauga_pin">
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_pin_curier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_verifica_pin"
+            android:layout_toEndOf="@+id/editTextCurierPin"
+            android:background="@drawable/custom_button"
+            android:onClick="verificaPin"
+            android:layout_marginStart="5dp"
+            />
+    </RelativeLayout>
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayoutCurier"/>
+
+</RelativeLayout>

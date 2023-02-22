@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294639983233",
+    "project_id": "courierapp-343313",
+    "storage_bucket": "courierapp-343313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294639983233:android:24de3017666a3a18260b80",
+        "android_client_info": {
+          "package_name": "eu.ase.ro.licenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294639983233-ci83aa050bq5lhp80ucm6sl1dojfkge4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClrn8-GDOPw_4QZKM8d9IFNQfedK4_NQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294639983233-ci83aa050bq5lhp80ucm6sl1dojfkge4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

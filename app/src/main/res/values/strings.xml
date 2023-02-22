@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="google_maps_api_key">AIzaSyBJ6Kr-DYmJPUnyP5jB7QHFPBXui7QJbMQ</string>
+
+    <string name="app_name">Licenta</string>
+    <string name="et_email">Email</string>
+    <string name="et_parola">Parola</string>
+    <string name="rb_client">Client</string>
+    <string name="rb_curier">Curier</string>
+    <string name="tv_user_type">Alege tipul de utilizator:</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="title_activity_curier_map">CurierMapActivity</string>
+    <string name="title_activity_client_map">ClientMapActivity</string>
+    <string name="btn_logout">Logout</string>
+    <string name="et_idCurier">Adauga id-ul curierului</string>
+    <string name="btn_cauta">Cauta</string>
+    <string name="iv_cd_courier_picture">courier picture</string>
+    <string name="row_tv_courier_id">Id curier</string>
+    <string name="row_tv_colet">Colet</string>
+    <string name="row_tv_suma">Suma</string>
+    <string name="client_package_adapter_default_value">-</string>
+    <string name="btn_istoric_colete">Istoric colete</string>
+    <string name="btn_inapoi">Inapoi</string>
+    <string name="row_tv_pin">PIN:</string>
+    <string name="et_introduceti_pin">Introduceti PIN</string>
+    <string name="btn_pin_verfica">Verfica</string>
+    <string name="btn_verifica_pin">Verifica pin</string>
+    <string name="et_adauga_pin">Adauga PIN</string>
+</resources>
